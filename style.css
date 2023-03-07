@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    background: #E5E5E5
+}
+
+body::before{
+    content: '';
+    
+    width: 1440px;
+    height: 436px;
+    left: 0px;
+    top: -2px;
+    
+    background: #535971;
+
+    position: absolute;
+    z-index: -1;
+}
+
+.page {
+    width: 1440px;
+    margin: auto;
+    
+}
+
+header {
+    margin-top: 140px;
+}
+
+h1, label fieldset{
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+
+    width: 163px;
+    height: 60px;
+    font-size: 48px;
+    line-height: 60px;
+
+    margin-bottom: 18px;
+
+    color: #FFFFFF;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 417px;
+    height: 46px;
+
+    color: #FFFFFF
+}
+
+form {
+    margin-top: 58px;
+    min-height: 1084px;
+    position: absolute;
+    width: 750px;
+    left: 345px;
+    top: 320px;
+
+    border-radius: 20px 20px 0 0;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+
+    background: #FFFFFF;
+    
+}
+
+fieldset {
+    border: none;
+}
+
+.fildset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #535971;
+}
+
+fieldset legend {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    
+    border-bottom: 1px solid #E6E6F0;
+
+    padding: 16px;
+    
+    color: #535971
+   
+}
+
+.input-wrapper label {
+    width: auto;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    
+    display: flex;
+    gap: 22px;
+
+    color: #4E4958;
+}
+
+.input-wrapper label span{
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    
+    color: #C1BCCC
+}
+
+.input-wrapper input{
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+    
+    padding: 0 24px;
+    
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #4E4958;
+    background: #FAFAFC;
+}
+
+.col-2{
+    display: flex;
+    gap: 22px;
+}
+.col-2 > div:nth-child(1),input{
+    width: 100%;
+}
+.col-2 > div:nth-child(2),input{
+    width: 100%;
+}
+
+.col-3 {
+    display: flex;
+    gap: 32px;
+    }
+
+.col-3 > div:nth-child(1), input{
+    width: 100%;
+}
+
+h4{
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 34px;
+    
+    margin-bottom: 11px;
+    
+    color: #535971;
+}
+
+
+
